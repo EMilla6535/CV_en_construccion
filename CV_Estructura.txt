@@ -1,0 +1,72 @@
+logo	     | datos personales | domicilio | experiencia | habilidades | acerca de mi | contacto |
+---------------------------------------------------------------------------------------------------
+					Bienvenido a mi CV(centrado)(h1)
+
+					Imagen de perfil(<img>)
+
+---------------------------------------------------------------------------------------------------
+	+-------------------------------------------------------------------------------+
+	|				Informacion personal(h2)			|
+	|	(<ul>)						(<ul>)			|
+	|	Nombre : 					Cosme			|
+	|	Apellido : 					Fulanito		|
+	|	Fecha de nacimiento :				03 / 07 / 1995		|
+	|	Edad :						X			|
+	|	Sexo :						Masculino		|
+	|	Nacionalidad :					Argentino		|
+	+-------------------------------------------------------------------------------+
+---------------------------------------------------------------------------------------------------
+
+					Domicilio(h2)
+		(<ul>)			(<ul>)
+		Calle :			Nombre de calle 1234	|	   Mapa de localizacion(?)
+		Ciudad :		Nombre ciudad		|	+-----------------------+
+		Estado :		Nombre Estado		|	|x	x	x	|
+		Pais :			Nombre Pais		|	|x	x	x	|
+		Codigo Postal :		CP			|	+-----------------------+
+
+---------------------------------------------------------------------------------------------------
+
+					Experiencia(h2)
+		(<ol>/<ul>)
+		-Primer trabajo					+-------------------------------+
+		-Segundo Trabajo				|	Imagen decorativa<img>	|
+		-Etc						+-------------------------------+
+
+---------------------------------------------------------------------------------------------------
+
+					Habilidades(h2)
+		
+		-Lenguajes de programacion(<h3>)
+		
+			(Slideshow con logos de lenguajes de programacion)	
+		
+		-Manejo del idioma Ingles(<h3>)
+
+---------------------------------------------------------------------------------------------------
+
+					Acerca de mi(h2)
+
+		(<p>)
+		Inventar una historia de vida que abarque aproximadamente un párrafo ó al
+		menos varias lineas como para justificar el uso de la etiqueta <p>
+
+---------------------------------------------------------------------------------------------------	
+
+					Informacion de contacto(h2)
+		(<ol>/<ul>)		(<ol>/<ul>)			+---------------+
+		Email : 		email@dominio.com		|	logo	|
+		Celular :		123456				|		|
+		Telefono :		654312				+---------------+
+
+
+
+
+
+
+
+
+
+
+
+
