@@ -93,9 +93,15 @@ h1,h2,h3,h4,h5,h6{
 	display: block;
 	margin: 79px auto 30px;
 	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	border: 3px solid #FFDE6A;
 	text-align: center;
+	background-image: url("img/person.svg");
+	background-size: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10px;
 }
 .datos-personales{
 	margin: 20px auto;
@@ -135,16 +141,31 @@ h1,h2,h3,h4,h5,h6{
 	background-position: center;
 	background-size: 100px;
 	border-radius: 10px;
-}
-.domicilio-map-error{
 	height: 219px;
+}
+.domicilio-no-map{
+	/*height: 219px;*/
 	display: block;
 	padding-top: 15px;
 	text-align: center;
+	margin: auto;
+}
+.map-button{
+	color: #EEE;
+	border: 2px solid #EEE;
+	border-radius: 10px;
+	background-image: linear-gradient(#777, #444);
+	padding: 10px;
+	display: block;
+	margin: auto;
+}
+.map-button:hover{
+	background-image: linear-gradient(#444, #5A5A5A);
 }
 #map{
 	height: 219px;
 	border-radius: 10px;
+	display: none;
 }
 /** Experiencia */
 .exp-container{

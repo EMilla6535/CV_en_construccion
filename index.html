@@ -34,7 +34,7 @@
 			<h1 class="h1">Curriculum Vitae</h1>
 			<div class="row" id="datos">
 				<div class="content-col" id="perfil">
-					<img class="img-perfil" alt="Imagen de Perfil" src="1.jpg">
+					<img id="img-perfil" class="img-perfil" alt="Imagen de Perfil" src="1.jpg">
 				</div>
 				<div class="content-col">
 					<!-- <h2>Datos Personales</h2>  -->
@@ -82,8 +82,6 @@
 		<!-- Domicilio -->
 		<h2 class="h2-style" id="domicilio">Domicilio</h2>
 		<div class="row">
-			<!-- Si el ancho de pantalla es menor a cierto valor, mostrar datos y mapa
-			     uno arriba del otro, sino lado a lado -->
 			<div class="content-col">
 				<section class="datos-domicilio">
 					<ul class="row no-marker-list">
@@ -115,8 +113,9 @@
 			</div>
 			<div class="content-col">
 				<section class="domicilio-map-section">
+					<button id="boton-mapa" class="map-button">Click aquí para ver un mapa con la localización del domicilio.</button>
 					<!-- Mapa si es posible -->
-					<div id="map"></div>
+					<div id="map" style="display: none;"></div>
 				</section>
 			</div>
 		</div>
