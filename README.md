@@ -1,1 +1,1 @@
-Pagina que muestra CV usando datos en formato JSON.
+Página que muestra CV usando datos en formato JSON.
